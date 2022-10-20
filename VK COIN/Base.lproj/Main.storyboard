@@ -122,11 +122,6 @@
                                     <action selector="autoClickButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="H9D-fI-7gU"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="01.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="OvW-0l-EvU">
-                                <rect key="frame" x="95" y="139.5" width="48" height="25"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" systemColor="systemPinkColor"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Достижения" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2F5-WQ-wAa">
                                 <rect key="frame" x="49" y="235" width="100" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -152,7 +147,6 @@
                         <outlet property="countLabel" destination="nUa-FY-YQt" id="wrS-gd-FW0"/>
                         <outlet property="marketIcon" destination="4eK-1k-xkE" id="RlM-6j-6qs"/>
                         <outlet property="oneClickLabel" destination="Q8b-db-4eN" id="kyC-eP-STU"/>
-                        <outlet property="oneOutlet" destination="OvW-0l-EvU" id="b3O-nZ-TuV"/>
                         <outlet property="topIcon" destination="bms-J9-yfM" id="MhQ-Nx-RXY"/>
                         <outlet property="transferIcon" destination="xht-rh-pUW" id="T3J-Ua-eGS"/>
                     </connections>
@@ -490,7 +484,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="01.circle.fill" catalog="system" width="128" height="123"/>
         <image name="1" width="2003" height="2003"/>
         <image name="1_1" width="468" height="828"/>
         <image name="1button" width="673" height="483"/>
@@ -510,9 +503,6 @@
         </systemColor>
         <systemColor name="systemOrangeColor">
             <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemPinkColor">
-            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemPurpleColor">
             <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
